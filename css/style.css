@@ -1,0 +1,58 @@
+body {
+    font-family: "Open Sans"
+}
+
+.navbar-brand {
+    font-weight: 900
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 2em;
+}
+
+.dropdown-item {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+nav {
+    background-color: white;
+}
+
+.profile-img {
+    width:100%; 
+    max-width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.subtitle {
+    font-weight: 600;
+}
+
+/* unvisited link */
+a.contact-icon:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a.contact-icon:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a.contact-icon:hover {
+    color: #A9C0FB;
+  }
+  
+  /* selected link */
+  a.contact-icon:active {
+    color: #476cca;
+  }
